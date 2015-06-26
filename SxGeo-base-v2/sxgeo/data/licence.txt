@@ -1,2 +1,0 @@
-DB Format description and new verions can be found on http://sypexgeo.net/ 
-and distributed under BSD licence.
