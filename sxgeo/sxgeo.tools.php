@@ -20,6 +20,7 @@ $plug_name = 'sxgeo';
 $base_path = $cfg['plugins_dir']."/$plug_name";
 
 require_once cot_incfile('sxgeo', 'plug');
+require_once cot_langfile('sxgeo', 'plug');
 $tt = new XTemplate(cot_tplfile('sxgeo', 'plug'));
 $sx_toolsmode = true;
 $sx['my'] = sx_getCountryCode($sx_ip);
