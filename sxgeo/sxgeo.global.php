@@ -36,6 +36,6 @@ if ($cfg['plugin']['sxgeo']['autoload']) {
 	sx_getCity($sx_ip);
 	$tt = new XTemplate(cot_tplfile('sxgeo', 'plug'));
 	$tt->parse();
-	$sx_infoblock =  $tt->text();
+	$sx_infoblock = $tt->text();
 }
 

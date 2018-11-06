@@ -10,11 +10,17 @@
 		<li>{PHP.L.sx_lat}: {PHP.sx_city.info.city.lat}</li>
 		<li>{PHP.L.sx_lon}: {PHP.sx_city.info.city.lon}</li>
 		<!-- IF {PHP.sx_toolsmode} -->
-    <hr>
-		<li>City info array: {PHP.sx.city_txt}</li>
-		<li>City extended info array: {PHP.sx.city_ext_txt}</li>
-    <hr>
-    {PHP.sx.my}
+		<li>
+      <hr>
+      City info array:
+      <br>
+      <pre>{PHP.sx.city_txt}</pre>
+    </li>
+		<li>
+      City extended info array:
+      <br>
+      <pre>{PHP.sx.city_ext_txt}</pre>
+    </li>
 		<!-- ENDIF -->
 	</ul>
 </div>
